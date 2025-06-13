@@ -1,12 +1,14 @@
-OptimusTech - Landing Page Institucional
+🚀 OptimusTech - Landing Page Institucional
 
-Sobre o Projeto
+✨ Sobre o Projeto
 
 Este projeto é uma landing page institucional desenvolvida como parte do desafio "7DaysOfCode" da Alura. O objetivo foi criar uma página elegante e responsiva para uma empresa fictícia, a **OptimusTech**, focando na apresentação de seus valores, conquistas, oportunidades de carreira e um canal de comunicação.
 
 A página demonstra habilidades essenciais de desenvolvimento Front-End, incluindo estruturação de conteúdo com HTML semântico e estilização moderna e responsiva com CSS.
 
-Funcionalidades e Seções
+🔗 Visite o Projeto: [https://desafio-landing-page-alura.vercel.app/](https://desafio-landing-page-alura.vercel.app/)
+
+🎯 Funcionalidades e Seções
 
 A landing page da OptimusTech é composta pelas seguintes seções:
 
@@ -26,7 +28,7 @@ A landing page da OptimusTech é composta pelas seguintes seções:
     * **Flexbox:** Para criação de layouts flexíveis e alinhamento de elementos.
     * **Importação de fontes do Google Fonts (`Inter`):** Para uma tipografia moderna e agradável.
 
-Design e Estilo
+🎨 Design e Estilo
 
 O design foi concebido para ser limpo, moderno e profissional, utilizando uma paleta de cores que transmite confiança e inovação. A escolha da fonte "Inter" contribui para a legibilidade e a estética contemporânea da página.
 
@@ -44,7 +46,7 @@ O design foi concebido para ser limpo, moderno e profissional, utilizando uma pa
 
 Este projeto foi desenvolvido como parte do desafio #7DaysOfCode da Alura, uma iniciativa para praticar e aprimorar habilidades de programação através da criação de projetos práticos.
 
-Autor
+🧑‍💻 Autor
 
 Rafael Araujo Tenório
-https://github.com/rafaeltenorioo
+[GitHub: rafaeltenorioo](https://github.com/rafaeltenorioo)
