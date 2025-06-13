@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --fonte-principal: "Inter", sans-serif;
+    --cor: #667085;
+    --cor-logo: #3A404E;
+    --branco: #FFFFFF;
+    --vermelho: #8E2424;
+}
+.cabeçalho {
+    display: flex;
+    align-items: center;
+    margin: 0 4em;
+    font-family: var(--fonte-principal);
+}
+.cabeçalho__logo {
+    display: flex;
+    gap: 0.5em;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--cor-logo);
+}
+.cabeçalho__menu {
+    display: flex;
+    gap: 2em;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 auto 0 10em;
+}
+.cabeçalho__menu__opções{
+    text-decoration: none;
+    color: var(--cor);
+}
+.cabeçalho__botões {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+}
+.botão {
+    color: var(--branco);
+    background: var(--vermelho);
+    padding: 0.8em;
+    border-radius: 8px;
+}
+.apresentação {
+    display: block;
+    text-align: center;
+    margin-top: 5em;
+}
+.apresentação__1 {
+    font-family: var(--fonte-principal);
+    color: var(--vermelho);
+    font-weight: 600;
+    font-size: 16px;
+}
+.apresentação__2 {
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    font-size: 48px;
+}
+.apresentação__3 {
+    font-family: var(--fonte-principal);
+    color: var(--cor);
+    font-weight: 400;
+    font-size: 20px;
+    padding: 0em 14em;
+}
+.métricas {
+    display: flex;
+    align-items: center;
+    margin-right: 3em;
+}
+.métricas__info {
+    display: block;
+    font-family: var(--fonte-principal);
+    margin-left: 5em;
+}
+.métricas__números {
+    color: var(--vermelho);
+    font-size: 60px;
+    font-weight: 600;
+}
+.métricas__p1 {
+    font-weight: 500;
+    font-size: 18px;
+
+}
+.métricas__p2 {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--cor);
+}
+.vagas__conteúdo {
+    display: block;
+    text-align: center;
+    margin: 8em 5em 3em 5em;
+}
+.vagas__abertas {
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--vermelho);
+    background: #ffc0c0;
+    border-radius: 16px;
+    display: inline-block;
+    padding: 5px 15px;
+}
+.vagas__titulo {
+    font-family: var(--fonte-principal);
+    font-size: 36px;
+    font-weight: 600;
+}
+.vagas__texto {
+    font-family: var(--fonte-principal);
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cor);
+    margin-bottom: 3em;
+}
+.vagas__apresentação {
+    display: block;
+    margin: 1em 15em 2em 15em;
+    font-family: var(--fonte-principal);
+}
+.vagas__area {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 2em;
+}
+.vagas__tipos {
+    border: 1px solid #f5f1f1fb;
+    border-radius: 8px;
+    padding: 1.5em;
+    margin-bottom: 2em;
+}
+.vagas__função {
+    font-size: 18px;
+    font-weight: 500;
+}
+.vagas__caracteristicas {
+    display: flex;
+    list-style-type: none; 
+    padding: 2em 0em 0em 0em;
+}
+.vagas__descrição {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cor);
+    margin-right: 2em;
+}
+.depoimentos {
+    margin: 5em 4em;
+}
+.depoimentos__conteudo {
+    display: block;
+    text-align: center;
+    background: #f5f1f1fb;
+    border-radius: 15px;
+    padding: 2em;
+    font-family: var(--fonte-principal);
+}
+.depoimentos__texto {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--vermelho);
+}
+.depoimentos__titulo {
+    font-size: 36px;
+    font-weight: 500;
+}
+.depoimentos__pessoa {
+    font-size: 16px;
+    font-weight: 500;
+}
+.depoimentos__pessoa__area {
+    font-size: 14px;    
+    font-weight: 400;
+    color: var(--cor);
+}
+.formulário {
+    display: block;
+    text-align: center;
+    background: #f5f1f1fb;
+    padding: 2em;
+    font-family: var(--fonte-principal);
+}
+.formulário__titulo {
+    font-size: 36px;
+    font-weight: 600;
+}
+.formulário__texto {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cor);
+}
+.formulário__email {
+    background-color: var(--branco);
+    border: 1px solid #909db8;
+    border-radius: 8px;
+    padding: 1.1em;
+    width: 25%;
+}
+.formulário__email::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+}
+.formulário__botão {
+    color: var(--branco);
+    background: var(--vermelho);
+    padding: 0.8em;
+    border-radius: 8px;
+    margin-left: 2em;
+}
+.little__footer {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cor);
+}
